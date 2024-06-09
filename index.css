@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 126px;
+    padding: 46px 93px;
+}
+
+.logo{
+    font-size: 36px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    line-height: 34.42px;
+}
+
+.navLink{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.searchCart img{
+    width: 25px;
+}
+
+.menuNavigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.searchCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 11px;
+    width: 75px;
+    height: 32px;
+}
+
+.hero{
+    position: relative;
+    top: 30px;
+    width: 1440;
+    height: 816px;
+}
+
+.rectangle-hero{
+    position: absolute;
+    width: 776px;
+    height: 207px;
+    top: 69px;
+    left: 664px;
+    background: #FAF4EF;
+    z-index: 1;
+}
+
+.heroImg{
+    position: absolute;
+    background-image: url("https://shorturl.at/u7YOJ");
+    background-position: center;
+    overflow: hidden;
+    background-size: cover;
+    width: 963px;
+    height: 654px;
+    top: 13px;
+    left: 367px;
+    z-index: 2;
+    border-bottom-left-radius: 75px;
+}
+
+.frame1{
+    position: absolute;
+    width: 492px;
+    height: 452px;
+    top: 254px;
+    left: 103px;
+    z-index: 3;
+    text-align: left;
+    background: #ffffffc8;
+    backdrop-filter: blur(5px);
+
+}
+
+.frame1 h1{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    color: #4B4B4B;
+}
+
+.frame1 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.products{
+    position: relative;
+    width: 1440px;
+    height: 1392px;
+    top: 100px;
+}
+
+.products h1{
+    position: absolute;
+    font-size: 60px;
+    width: 254px;
+    top: 83px;
+    left: 104px;
+    color: #4B4B4B;
+}
+
+.products ul{
+    position: absolute;
+    top: 188px;
+    left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    color: #4B4B4B;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  color: black;
+  position: absolute;
+  top: 306px;
+  left: 104px;
+}
+
+.grid-item{
+    width: 366px;
+    height: 455px;
+    position: relative;
+}
+
+.grid-item img{
+    position: absolute;
+    top: 190px;
+    left: 60px;
+    width: 260px;
+    height: 285px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-item .rectangle-products{
+    height: 420px;
+    width: 366px;
+    background: #FAF4EF;
+    border-bottom-left-radius: 50px;
+}
+
+.grid-item h1{
+    position: absolute;
+    height: 54px;
+    top: 50px;
+    left: 40px;
+    font-size: 36px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    color: #4B4B4B;
+}
+
+
+.grid-item p{
+    position: absolute;
+    height: 54px;
+    top: 100px;
+    left: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "DM Serif Display", serif;
+    color: #737373;
+
+}
